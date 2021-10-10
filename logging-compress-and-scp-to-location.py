@@ -5,12 +5,12 @@
 
 # 1 & 2. Universal variables
 # Enter hardcoded path to each log, with single space in between:
-logs_to_compress = "/home/anton/logsTest/test"
+logs_to_compress = "/home/anton/logsTest/test /home/anton/logsTest/test1 /home/anton/logsTest/test2"
 # Enter hardcoded path where tar.gz should be stored prior to being sent to final destination:
-tar_path = "/home/anton/logsTest"
+tar_path = "/home/anton/logsTest/"
 # Enter the tarball's name:
 tar_name = "logs.tar.gz"
-# Enter the compress command to be used:
+# Enter the tar compress command to be used:
 compress_command = "tar -cvf"
 
 # 1. Variables
